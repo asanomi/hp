@@ -1,0 +1,513 @@
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	height: 100%; text-align: center; color: rgb(51, 0, 0);
+}
+body {
+	height: 100%; text-align: center; color: rgb(51, 0, 0);
+}
+#wrap {
+	height: 100%; text-align: center; color: rgb(51, 0, 0);
+}
+body {
+	background-image: url("images/bg.gif"); background-repeat: repeat-x;
+}
+body {
+	line-height: 130%; font-family: "‚l‚r ƒSƒVƒbƒN", "MS Gothic", "Osaka|“™•", Osaka-mono, monospace; font-size: 14px;
+}
+th {
+	line-height: 130%; font-family: "‚l‚r ƒSƒVƒbƒN", "MS Gothic", "Osaka|“™•", Osaka-mono, monospace; font-size: 14px;
+}
+td {
+	line-height: 130%; font-family: "‚l‚r ƒSƒVƒbƒN", "MS Gothic", "Osaka|“™•", Osaka-mono, monospace; font-size: 14px;
+}
+caption {
+	line-height: 130%; font-family: "‚l‚r ƒSƒVƒbƒN", "MS Gothic", "Osaka|“™•", Osaka-mono, monospace; font-size: 14px;
+}
+body > #wrap {
+	height: auto; min-height: 100%;
+}
+#wrap {
+	margin: 0px auto; width: 800px; background-color: rgb(255, 255, 255);
+}
+#main {
+	width: 800px; height: 100%; padding-bottom: 20px;
+}
+#header {
+	left: 0px; top: 0px; width: 800px; height: 147px; position: relative; background-color: rgb(204, 204, 204);
+}
+#header td {
+	padding: 0px; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 13px;
+}
+#menu {
+	width: 800px; margin-bottom: 20px;
+}
+#menu a {
+	background-position: top; width: 100px; height: 25px; text-indent: -9999px; display: block;
+}
+#menu a:hover {
+	background-position: bottom;
+}
+#menu a.menu1 {
+	background-image: url("images/menu_01.gif");
+}
+#menu a.menu2 {
+	background-image: url("images/menu_02.gif");
+}
+#menu a.menu3 {
+	background-image: url("images/menu_03.gif");
+}
+#menu a.menu4 {
+	background-image: url("images/menu_04.gif");
+}
+#menu a.menu5 {
+	background-image: url("images/menu_05.gif");
+}
+#menu a.menu6 {
+	background-image: url("images/menu_06.gif");
+}
+#menu a.menu7 {
+	background-image: url("images/menu_07.gif");
+}
+#menu a.menu8 {
+	background-image: url("images/menu_08.gif");
+}
+#menu a.menu9 {
+	background-image: url("images/menu_09.gif");
+}
+#menu a.menu10 {
+	background-image: url("images/menu_10.gif");
+}
+#menu a.menu11 {
+	background-image: url("images/menu_11.gif");
+}
+#menu a.menu12 {
+	background-image: url("images/menu_12.gif");
+}
+#menu a.menu13 {
+	background-image: url("images/menu_13.gif");
+}
+#menu a.menu14 {
+	background-image: url("images/menu_14.gif");
+}
+#menu a.menu15 {
+	background-image: url("images/menu_15.gif");
+}
+#menu a.menu16 {
+	background-image: url("images/menu_16.gif");
+}
+#menu a.menu17 {
+	background-image: url("images/menu_17.gif");
+}
+#menu a.menu18 {
+	background-image: url("images/menu_18.gif");
+}
+#menu table td {
+	padding: 0px;
+}
+#contents {
+	width: 800px; text-align: center; background-color: rgb(255, 255, 255);
+}
+#footer {
+	border-color: rgb(153, 153, 153); margin: -20px auto 0px; width: 800px; height: 20px; clear: both; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+a {
+	color: rgb(204, 51, 153); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin: 5px auto 10px; width: 580px; text-align: left;
+}
+table {
+	margin: 0px auto;
+}
+table.noborder {
+	border: currentColor; border-image: none;
+}
+th {
+	padding: 2px; vertical-align: top; white-space: nowrap;
+}
+td {
+	padding: 2px; text-align: left; vertical-align: top;
+}
+img {
+	border: 0px currentColor; border-image: none; line-height: 0; vertical-align: bottom;
+}
+h1 {
+	margin: 0px 0px 15px;
+}
+h2 {
+	margin: 15px auto;
+}
+h3 {
+	margin: 5px auto 0px; width: 565px; height: 50px; text-align: left; color: rgb(153, 51, 0); padding-top: 15px; padding-left: 70px; background-image: url("images/bg_gaiyou.gif"); background-repeat: no-repeat;
+}
+h4 {
+	margin: 5px auto;
+}
+h5 {
+	margin: 10px auto;
+}
+h6 {
+	margin: 10px auto;
+}
+dl {
+	margin: 0px auto; width: 550px; text-align: left;
+}
+dt {
+	width: 6em; float: left;
+}
+dd {
+	padding: 0px 0px 0px 6em;
+}
+ul {
+	margin: 0px auto; padding: 0px; width: 450px; text-align: left;
+}
+ul li {
+	padding: 2px; margin-left: 20px;
+}
+form {
+	width: 200px;
+}
+.clear {
+	height: 0px; clear: both;
+}
+.center {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;
+}
+.text_s {
+	font-size: 12px;
+}
+.pink {
+	color: rgb(255, 102, 153);
+}
+.pinkbold {
+	color: rgb(255, 102, 153); font-weight: bold;
+}
+.blue {
+	color: rgb(51, 153, 204);
+}
+.green {
+	color: rgb(102, 153, 0);
+}
+.textline {
+	padding: 8px; border-bottom-color: rgb(102, 0, 0); border-bottom-width: thin; border-bottom-style: dotted;
+}
+.koushinrireki {
+	margin: 0px auto; padding: 5px; border: 1px dotted rgb(153, 153, 153); border-image: none; width: 600px; text-align: left; font-size: 12px;
+}
+.koushinrireki dl {
+	width: 560px;
+}
+.koushinrireki dl dt {
+	width: 6em; font-weight: bold; float: left;
+}
+.koushinrireki dl dd {
+	padding: 0px 0px 0px 7em;
+}
+#counter {
+	width: 700px; text-align: right; margin-top: 15px; margin-bottom: 15px;
+}
+.aisatsu {
+	margin: 15px auto; width: 680px; text-align: right; clear: both; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.aisatsu div.photo {
+	padding: 5px; width: 210px; float: left;
+}
+.aisatsu div.photo img {
+	width: 200px;
+}
+.aisatsu_textbox {
+	width: 460px; float: right;
+}
+.aisatsu p {
+	margin: 0px; padding: 5px; width: 100%;
+}
+.aisatsu p.date {
+	padding-bottom: 0px;
+}
+p.pass {
+	width: 700px; text-align: center; color: rgb(255, 51, 51); font-size: 12px;
+}
+div.gaiyo {
+	background-position: left bottom; margin: 0px auto; padding: 0px; width: 680px; background-image: url("images/kodomo.gif"); background-repeat: no-repeat;
+}
+.gaiyo dl {
+	margin: 0px; padding: 0px 10px 10px; text-align: left;
+}
+.gaiyo dl dt {
+	padding: 3px 0px; width: 8em; color: rgb(102, 102, 255); text-indent: 1em; font-weight: bold; float: left;
+}
+.gaiyo dl dd {
+	padding: 3px 0px 3px 8em; text-align: left;
+}
+.bus_photo {
+	margin: 0px auto; width: 618px;
+}
+.bus_photo img {
+	margin: 0px 5px 0px 0px; width: 200px; height: 105px; float: left;
+}
+.seifuku_photo {
+	margin: 0px auto; width: 580px;
+}
+.seifuku_photo img {
+	margin: 5px; width: 135px; height: 135px; float: left;
+}
+.kyouiku_box {
+	margin: 10px auto; padding: 5px; border: thin dotted rgb(204, 102, 102); border-image: none; width: 590px; text-align: left; background-color: rgb(255, 230, 234);
+}
+.kyouiku_box2 {
+	margin: 10px auto; padding: 10px; width: 600px; text-align: left;
+}
+.kyouiku_box2 h4 {
+	text-align: right;
+}
+p.asobi {
+	margin: 10px auto; width: 580px; padding-left: 25px;
+}
+.seika_wrap {
+	margin: auto; padding: 5px; width: 740px; text-align: left;
+}
+.seika_box {
+	margin: 5px; padding: 3px; border: 1px dotted rgb(204, 204, 204); border-image: none; width: 350px; text-align: left; float: left;
+}
+img.seika_illust {
+	padding: 0px 5px; width: 135px; height: 135px; float: left;
+}
+img.seika_photo {
+	margin: 0px 10px; width: 173px; height: 130px; float: left;
+}
+.seika_box p {
+	width: 338px; padding-top: 5px; clear: left; font-size: 12px;
+}
+.kagai_photo {
+	margin: 0px auto; width: 735px;
+}
+.kagai_photo img {
+	margin: 0px 5px; width: 173px; height: 130px; float: left;
+}
+div.enteikaihou {
+	margin: 0px auto; width: 580px;
+}
+div.enteikaihou td {
+	text-align: center;
+}
+.seasonbox {
+	margin: 10px auto 20px; padding: 0px; border: 1px dashed rgb(204, 153, 102); border-image: none; width: 598px;
+}
+.season_img {
+	margin: auto; padding: 8px; float: left;
+}
+.eventname {
+	margin: 0px; padding: 5px; width: 600px; text-align: center; line-height: 120%; clear: left;
+}
+.seasonbox dl dd {
+	margin: 0px; text-align: center; color: rgb(102, 102, 102); font-size: 12px;
+}
+.day_wrap {
+	margin: auto; padding: 5px; width: 700px;
+}
+.day_box {
+	background-position: right top; margin: 2px 10px; padding: 5px; border: 1px dotted rgb(204, 153, 153); border-image: none; width: 200px; height: 250px; float: left; background-image: url("images/bg_day.gif"); background-repeat: no-repeat;
+}
+.day_box h6 {
+	margin: 8px 3px 5px; padding: 3px; width: 160px; text-align: center; font-size: 12px; font-weight: normal; border-top-color: rgb(255, 153, 204); border-bottom-color: rgb(255, 153, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.day_box p {
+	margin: 8px; width: 160px; line-height: 120%; font-size: 12px;
+}
+.day_box img {
+	padding: 3px; width: 160px; height: 120px;
+}
+.blog_wrap {
+	background-position: right top; margin: 10px auto; width: 600px; background-image: url("images/bg_blog.gif"); background-repeat: no-repeat;
+}
+.blog_date {
+	text-align: right; font-size: 12px;
+}
+.blog_title {
+	margin: 0px auto 5px; padding: 3px; width: 600px; text-align: left; border-bottom-color: rgb(204, 102, 153); border-left-color: rgb(204, 102, 153); border-bottom-width: 1px; border-left-width: 10px; border-bottom-style: solid; border-left-style: solid;
+}
+.blog_photo {
+	width: 600px; text-align: left;
+}
+.blog_photo img {
+	width: 250px; height: 183px;
+}
+.blog_contents {
+	padding: 5px; width: 600px; text-align: left;
+}
+.blog_contents img {
+	margin: 3px; width: 180px; height: 135px;
+}
+.blog_navi {
+	margin: 10px auto; width: 400px;
+}
+.album_wrap {
+	margin: auto; width: 720px;
+}
+.album_menu {
+	width: 100px; float: left;
+}
+.album_menu h5 {
+	width: 100px; text-align: left; font-size: 12px; font-weight: bold;
+}
+.album_menu ul {
+	width: 100px; padding-left: 7px;
+}
+.album_menu li {
+	margin: 0px; padding: 5px 0px; width: 100px; font-size: 12px; list-style-type: none;
+}
+.album_contents {
+	width: 600px; float: left;
+}
+.album_main {
+	margin: 0px auto 15px; width: 600px; text-align: left; background-color: rgb(255, 247, 250);
+}
+.album_date {
+	text-align: right; font-size: 12px;
+}
+.album_title {
+	padding: 5px; border-top-color: rgb(255, 102, 153); border-bottom-color: rgb(255, 102, 153); border-top-width: 1px; border-bottom-width: 1px; border-top-style: dotted; border-bottom-style: dotted; background-color: rgb(255, 200, 219);
+}
+.album_text {
+	padding: 5px;
+}
+.album_photo_wrap {
+	margin: 10px; width: 180px; float: left;
+}
+.album_photo {
+	width: 160px;
+}
+.album_photo img {
+	width: 180px; height: 135px;
+}
+.album_photo_caption {
+	width: 180px; text-align: center; font-size: 10px;
+}
+.schedule {
+	margin: auto; width: 600px;
+}
+.schedule_navi {
+	margin: 10px auto; width: 400px;
+}
+.schedule table {
+	background-position: left top; margin: 0px; padding: 3px; border: 1px solid rgb(102, 102, 102); border-image: none; width: 600px; border-collapse: collapse; background-image: url("images/bg_schedule.gif"); background-repeat: repeat;
+}
+.schedule td {
+	border: 1px solid rgb(102, 102, 102); border-image: none;
+}
+.schedule td.date {
+	width: 25px; text-align: center;
+}
+.schedule td.main {
+	width: 480px;
+}
+.schedule td.bikou {
+	width: 120px; font-size: 12px;
+}
+.schedule tr.sat {
+	background-color: rgb(204, 255, 255);
+}
+.schedule tr.sun {
+	background-color: rgb(255, 204, 255);
+}
+.oshirase_wrap {
+	margin: 10px auto; width: 600px;
+}
+.oshirase_date {
+	text-align: right; padding-right: 5px; font-size: 12px;
+}
+.oshirase_title {
+	padding: 5px; text-align: left; color: rgb(255, 102, 153); font-weight: bold; background-image: url("images/bg_shirase.gif"); background-color: rgb(255, 204, 204);
+}
+.oshirase_contents {
+	padding: 10px; width: 578px; text-align: left; border-right-color: rgb(255, 204, 204); border-bottom-color: rgb(255, 204, 204); border-left-color: rgb(255, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.oshirase_navi {
+	margin: 10px auto; width: 400px;
+}
+.shokuin_wrap {
+	margin: 10px auto; width: 600px; border-bottom-color: rgb(204, 204, 255); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.shokuin_date {
+	text-align: right; padding-right: 5px; font-size: 12px;
+}
+.shokuin_title {
+	padding: 5px; text-align: left; color: rgb(0, 102, 153); font-weight: bold; background-image: url("images/bg_shokuin.gif"); background-color: rgb(218, 218, 255);
+}
+.shokuin_contents {
+	padding: 10px; width: 578px; text-align: left;
+}
+.shokuin_navi {
+	margin: 10px auto; width: 400px;
+}
+.shokuin_link {
+	background-position: left top; margin: 10px auto; width: 560px; text-align: left; padding-left: 20px; background-image: url("images/ya.gif"); background-repeat: no-repeat;
+}
+.endayori {
+	background-position: left top; margin: 15px auto; width: 494px; height: 36px; text-align: left; background-image: url("images/bg_endayori.gif"); background-repeat: no-repeat;
+}
+.endayori_text {
+	width: 430px; text-align: left; color: rgb(102, 0, 0); padding-top: 8px; padding-left: 60px; font-weight: bold;
+}
+.endayori_navi {
+	border-style: solid none; margin: 15px auto 10px; width: 400px; border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px;
+}
+p.pagetop {
+	width: 750px; text-align: right; font-size: 10px; margin-top: 10px;
+}
+.bus_jikokuhyo {
+	margin: 10px auto; padding: 5px; width: 750px;
+}
+.bus_jikokuhyo h4 {
+	margin: auto; padding: 5px; width: 700px; border-top-color: rgb(255, 153, 0); border-bottom-color: rgb(255, 153, 0); border-top-width: thin; border-bottom-width: thin; border-top-style: solid; border-bottom-style: solid;
+}
+.bus_jikokuhyo table {
+	margin: 10px; border: 1px solid rgb(102, 102, 102); border-image: none; width: 350px; float: left; border-collapse: collapse;
+}
+.bus_jikokuhyo caption {
+	font-weight: bold;
+}
+.bus_jikokuhyo th {
+	border: 1px solid rgb(102, 102, 102); border-image: none; font-size: 12px;
+}
+.bus_jikokuhyo td {
+	border: 1px solid rgb(102, 102, 102); border-image: none; text-align: center; font-size: 12px;
+}
+.bus_jikokuhyo td.left {
+	text-align: left; font-size: 12px;
+}
+.bus_jikokuhyo ul {
+	padding: 5px; border: thin dashed rgb(153, 153, 153); border-image: none; width: 700px; margin-left: 15px;
+}
+.bus_jikokuhyo li {
+	padding: 3px; font-size: 12px;
+}
+p.map {
+	width: 630px; color: rgb(51, 153, 204); font-size: 12px;
+}
+p.mapbotan {
+	width: 630px; text-align: right;
+}
